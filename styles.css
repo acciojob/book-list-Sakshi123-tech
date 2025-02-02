@@ -1,1 +1,67 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f9f9f9; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-striped tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.delete:hover {
+    background-color: darkred;
+}

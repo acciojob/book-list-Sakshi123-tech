@@ -7,7 +7,48 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBookList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>MyBookList</h1>
+        
+        <!-- Form for book input -->
+        <div class="form-group">
+            <input type="text" id="title" placeholder="Book Title" class="form-control">
+            <input type="text" id="author" placeholder="Author" class="form-control">
+            <input type="text" id="isbn" placeholder="ISBN Number" class="form-control">
+            <button id="submit" class="btn">Add Book</button>
+        </div>
+
+        <!-- Table to display added books -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN#</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+                <!-- Dynamically added rows will appear here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
